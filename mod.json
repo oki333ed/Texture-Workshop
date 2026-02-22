@@ -1,12 +1,12 @@
 {
-	"geode": "4.10.0",
+	"geode": "5.0.0-beta.4",
 	"gd": {
-		"win": "2.2074",
-		"mac": "2.2074",
-		"ios": "2.2074",
-		"android": "2.2074"
+		"win": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081",
+		"android": "2.2081"
 	},
-	"version": "v1.5.0",
+	"version": "v1.5.1",
 	"id": "uproxide.textures",
 	"name": "Texture Workshop",
 	"developer": "Uproxide",
@@ -22,10 +22,10 @@
 		]
 	},
 	"dependencies": {
-		"geode.texture-loader": ">=1.8.2",
+		"geode.texture-loader": ">=1.9.0",
 		"alphalaneous.happy_textures": {
-			"importance": "recommended",
-			"version": ">=2.0.22"
+			"reqired": false,
+			"version": ">=2.1.0"
 		}
 	},
 	"settings": {
