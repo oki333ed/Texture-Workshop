@@ -1,5 +1,5 @@
 {
-	"geode": "5.0.0",
+	"geode": "5.0.1",
 	"gd": {
 		"win": "2.2081",
 		"mac": "2.2081",
@@ -22,7 +22,11 @@
 		]
 	},
 	"dependencies": {
-		"geode.texture-loader": ">=1.9.0"
+		"geode.texture-loader": ">=1.9.0",
+		"alphalaneous.happy_textures": {
+			"reqired": false,
+			"version": ">=2.1.0"
+		}
 	},
 	"settings": {
 		"cert-verification": {
