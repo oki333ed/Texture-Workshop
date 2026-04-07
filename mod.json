@@ -1,16 +1,22 @@
 {
-	"geode": "5.5.2",
+	"geode": "5.5.3",
 	"gd": {
 		"win": "2.2081",
 		"mac": "2.2081",
 		"ios": "2.2081",
 		"android": "2.2081"
 	},
-	"version": "v1.0.2",
+	"version": "v1.0.3",
 	"id": "chessdash543.tms",
 	"name": "Texture Makers Workshop",
 	"developer": "TMS Team",
-	"description": "A fork from Texture WorkShop :)",
+	"description": "A fork from Texture Workshop :)",
+	"dependencies": {
+		"geode.texture-loader": {
+			"required": true,
+			"version": ">=1.9.0"
+		}
+	},
 	"resources": {
 		"spritesheets": {
 			"TMSSheet": [
@@ -37,6 +43,10 @@
 		}
 	},
 	"tags": [
-		"universal", "utility", "interface", "enhancement", "customization", "fork"
-	]
+		"universal", "utility", "interface", "enhancement", "customization"
+	],
+	"links": {
+		"community": "https://discord.gg/YMGPn26WMN",
+		"source": "https://github.com/Chessdash543/Texture-Workshop"
+	}
 }
